@@ -1,0 +1,169 @@
+.c{
+    height: 100vh;
+    position: relative;
+}
+
+.c-bg{
+    width: 20px;
+    height: 100%;
+    background-color:#59b256 ;
+   position: absolute;
+}
+
+.c-wrapper{
+
+    padding: 50px;
+    display: flex;
+}
+.c-left{
+    flex: 1;
+}
+.c-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c-title{
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 60%;
+}
+
+.c-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.c-desc{font-weight: 200;}
+
+
+form{
+    margin-top: 20px;
+
+}
+
+input{
+    width: 50%;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+    font-size: 14px;
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    padding:15px ;
+    background-color: #59b256;
+    color:white; 
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+@media screen and (max-width:500px){
+    .c{
+        height: 100%;
+        position: relative;
+    }
+    
+    .c-bg{
+        width: 7px;
+        height: 100%;
+        background-color:#59b256 ;
+       position: absolute;
+    }
+    
+    .c-wrapper{
+        padding: 20px;
+        display: flex;
+    }
+    .c-left{
+        flex: 1;
+    }
+    .c-right{
+        flex: 1;
+        display: flex;
+        margin-top: 0px;
+        align-items:center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .c-title{
+        font-size: 15px;
+        margin-top: 0px;
+        width: 80%;
+    }
+    
+    .c-info-item{
+        display: flex;
+        align-items: center;
+        /* edhardeko */
+        margin: 30px 0px;
+        font-weight: 300;
+        font-size: 7px;
+        width: 60%;
+    }
+    
+    .c-icon{
+        width: 15px;
+        height: 15px;
+        margin-right: 20px;
+    }
+    
+    .c-desc{
+        font-weight: 200;
+        font-size: 8px;
+    }
+    
+    
+    input{
+        width: 90%;
+        height: 15px;
+        border: none;
+        margin: 5px 0;
+       
+        border-bottom: 1px solid black;   
+        padding: 5px;
+        font-size: 9px;
+    }
+    
+    textarea{
+        width: 90%;
+        margin: 2px 0;
+        font-size: 9px;
+        padding: 5px;
+    }
+    
+    button{
+        border: none;
+        padding:5px ;
+        background-color: #59b256;
+        color:white; 
+        font-weight: 500;
+        font-size: 9px;
+        cursor: pointer;
+    
+    }
+}
