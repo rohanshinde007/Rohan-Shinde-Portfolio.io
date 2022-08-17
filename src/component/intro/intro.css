@@ -25,25 +25,29 @@
 
 .i-left-wrapper {
     padding: 50px;
-    height: 50%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .i-intro {
-    font-size: 30px;
+    font-size: 5vh;
     font-weight: 300;
 }
 
 .i-name {
-    font-size: 60px;
+    font-size: 7vh;
 
 }
 
 .i-title {
     height: 50px;
     overflow: hidden;
+}
+
+.i-desc{
+    font-size: 4vh;
 }
 
 .i-title-wrapper {
@@ -71,7 +75,7 @@
 
 .i-title-item {
     height: 50px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: #59b256;
     display: flex;
@@ -113,103 +117,145 @@ opacity: 1;
 }
 
 
-@media screen and (max-width:500px){
-    .i{
-        height: 100%;
-    }
 
-    .i-left{
-        height: 100%;
-    }
- 
+@media screen and (max-width:356px){
     .i-left-wrapper {
         padding: 10px;
-        height: 50%;
-       
-    }
-
-    .i-intro {
-        font-size: 12px;
-
-    }
-    .i-name {
-        font-size: 20px;
-    }
-
-
-    .i-title {
-        height: 10px;
-        margin-top: 5px;
-        overflow: hidden;
-    }
-    .i-title-wrapper {
-        height: 100%;
-        animation: move 14s ease-in-out infinite alternate;
-    }
-    
-    @keyframes move {
-        25% {
-            transform: translateY(-50px); 
-            /* -50 */
-        }
-    
-        50% {
-            transform: translateY(-100px);
-        }
-    
-        75% {
-            transform: translateY(-150px);
-        }
-    
-        100% {
-            transform: translateY(-200px);
-        }
-    }
-    
-
-    
-    .i-title-item {
-        height: 50px;
-        font-size: 10px;
-        font-weight: bold;
-        color: #59b256;
-        display: flex;
-        align-items: flex-start;
-    }
-    
-    
-
-
-.i-desc{
-    font-size: 10px;
-    /* this size for any type of desc */
-    margin-top: 10px;
-}
-
-}
-
-@media (min-width:500px) and (max-width:750px){
-    .i-left-wrapper {
-        padding: 30px;
-        height: 40%;
+        height: 25%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
+    
     .i-intro {
-        font-size: 16px;
-
+        font-size: 13px;
+        font-weight: 300;
     }
+    
     .i-name {
-        font-size: 25px;
+        font-size: 18px;
+    
     }
-
-
+    .i-desc{
+        font-size: 13px;
+    }
+    
     .i-title {
         height: 50px;
-        margin-top: 5px;
         overflow: hidden;
     }
+    
+    
+    .i-title-item {
+        height: 50px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #59b256;
+        display: flex;
+        align-items: center;
+    }
+    
+    .i_img{
+        width: 70%;
+        height: 45%;
+        border-radius: 33%;
+        object-fit: cover;
+        position: absolute;
+        background: white;
+    
+    }
+}
+
+@media (min-width:356px) and (max-width:500px){
+    
+    .i {
+        display: flex;
+        height: 100vh;
+    }
+    .i-left-wrapper {
+        padding: 10px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .i-intro {
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    .i-name {
+        font-size: 20px;
+    
+    }
+    
+    .i-title {
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .i-desc{
+        font-size: 12px;
+    }
+    
+    
+    .i-title-item {
+        height: 50px;
+        font-size: 13px;
+        font-weight: bold;
+        color: #59b256;
+        display: flex;
+        align-items: center;
+    }
+    
+    .i_img{
+        width: 70%;
+        height: 45%;
+        border-radius: 33%;
+        object-fit: cover;
+        position: absolute;
+        background: white;
+    
+    }
+    
+}
+   
+
+@media (min-width:500px) and (max-width:750px){
+   
+    .i-left-wrapper {
+        padding: 10px;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .i-intro {
+        font-size: 22px;
+        font-weight: 300;
+    }
+    
+    .i-name {
+        font-size: 29px;
+    
+    }
+    
+    .i-title {
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .i-desc{
+        font-size: 13px;
+    }
+    .i-title {
+        height: 50px;
+        overflow: hidden;
+    }
+    
+    
     .i-title-item {
         height: 50px;
         font-size: 20px;
@@ -217,6 +263,16 @@ opacity: 1;
         color: #59b256;
         display: flex;
         align-items: center;
+    }
+    
+    .i_img{
+        width: 70%;
+        height: 65%;
+        border-radius: 33%;
+        object-fit: cover;
+        position: absolute;
+        background: white;
+    
     }
 }
 

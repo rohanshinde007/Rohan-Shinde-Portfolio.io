@@ -1,5 +1,5 @@
 .a{
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -10,11 +10,12 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 100%;
+    height: 100vh;
 }
 
 .a-right{
     flex: 1;
+    height: 100%;
 }
 
 .a-card.bg{
@@ -42,6 +43,7 @@
     height: 120px;
     width: 120px;
     border-radius:20px;
+    margin-right: 8px;
 }
 
 .a-title{
@@ -88,24 +90,28 @@
         align-items:center;
         justify-content: center;
         position: relative;
-        height: 100%;
+        height: 80vh;
+      
     }
     
     .a-right{
         flex: 1;
        margin-right: 5px;
+       margin-top: 70px;
+     
     }
+    
     
     .a-card.bg{
         position: absolute;
-        top: -10px;
-        left: 20px;
+        top: 49px;
+        left: 10px;
         background-color: #333;
     }
     
     .a-card{
-        width: 60%;
-        height: 30vh;
+        width: 80%;
+        height: 50vh;
         border-radius: 5px;
         position: relative;
         overflow: hidden;
@@ -125,22 +131,22 @@
     }
     
     .a-title{
-        font-size: 12px;
+        font-size: 17px;
         font-weight: 500;
     
     }
     .a-sub{
-        font-size: 9px;
-        margin: 7px 0px;
+        font-size: 13px;
+        margin: 17px 0px;
     }
     
     .a-desc{
-        font-size: 8px;
+        font-size: 11px;
         font-weight: 300;
     }
     
     .a-award{
-        margin-top: 10px;
+        margin-top: 9px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -158,7 +164,7 @@
         margin-bottom: 5px;
     }
 
-    
+      
 }
 
 
