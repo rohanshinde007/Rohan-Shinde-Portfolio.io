@@ -17,11 +17,19 @@ export default function About() {
       <div className="a-right">
         <h1 className='a-title'>About Me</h1>
         <p className='a-sub'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at similique officiis, placeat, libero tempore illum 
+          I am Rohan from India,
         </p>
         <p className='a-desc'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur soluta facere, est corporis tenetur rerum fuga sequi blanditiis error suscipit tempora aspernatur modi aliquam animi similique officia distinctio debitis asperiores. Maiores 
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi in ad consequatur!
+        I Love coding and developing something new that's why I started Software Development. 
+          I do develop a full-stack web app means including Frontend and Backend and I have always increased my knowledge about developing a web app.
+          then I started Android app development in Android studio and I do give most of my time to learning and developing something new. so i.e
+          learning is the first hobby and swimming and listening music is second and third hobby <br />  <br />
+
+          skills: HTML5, CSS, JavaScript, Bootstrap, nodeJs or(npm)all packages, MongoDB(compass+Atlas), postmon, Visual Studio, React Js ES6  , Git&Github, webhosting on Linux(ubuntu), java, Android Studio(layouts,XMl,gradle, etc.), intellij idea, little bit of Unreal Engine 5.
+
+          
+          
+             
         </p>
         <div className="a-award">
           <img src="https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className='a-award-img'/>

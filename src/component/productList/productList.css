@@ -55,3 +55,13 @@
         justify-content: space-between;
     }
 }
+
+@media (min-width:500px) and (max-width:700px){
+    .pl-texts{
+        width: 80%;
+    }
+    .pl-title{
+        font-size: 40px;
+        font-weight: 600;
+    }
+}

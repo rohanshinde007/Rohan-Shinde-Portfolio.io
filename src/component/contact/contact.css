@@ -1,11 +1,11 @@
 .c{
-    height: 100vh;
+    height: 90vh;
     position: relative;
 }
 
 .c-bg{
     width: 20px;
-    height: 100%;
+    height: 80%;
     background-color:#59b256 ;
    position: absolute;
 }

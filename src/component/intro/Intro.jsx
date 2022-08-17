@@ -1,7 +1,10 @@
 
 import "./intro.css"
 import Me from "../../img/me.png"
+import ReactDOM from 'react-dom';
 export default function Intro() {
+ 
+  
   return (
     <div className='i'>
         <div className="i-left">
@@ -21,14 +24,15 @@ export default function Intro() {
             </div>
 
             <p className="i-desc">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit qui iste dolorum repudiandae, quam distinctio debitis architecto accusamus consequuntur maxime sequi necessitatibus minima perferendis recusandae, earum nostrum voluptas laborum saepe quis vel tempora Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat aspernatur sint libero?
+            High-level skills in full-stack development.
             </p>
         </div>
         </div>
      
         <div className="i-right">
-            <div className="i-bg"></div>
+            <div className="i_bg"></div>
             <img src={Me} alt="" className="i_img"/>
+           
         </div>
         
     </div>
