@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rohanShinde007/static/css/main.f5d084bf.css",
-    "main.js": "/rohanShinde007/static/js/main.4237c9f0.js",
+    "main.css": "/rohanShinde007/static/css/main.907cd13d.css",
+    "main.js": "/rohanShinde007/static/js/main.23e2a339.js",
     "static/js/787.cf8746b4.chunk.js": "/rohanShinde007/static/js/787.cf8746b4.chunk.js",
     "static/media/me.png": "/rohanShinde007/static/media/me.ac4df8ce5ce2cc544871.png",
     "static/media/phone.png": "/rohanShinde007/static/media/phone.a1fd8456749025af067e.png",
@@ -10,12 +10,12 @@
     "static/media/moon.png": "/rohanShinde007/static/media/moon.4e3dda20616eaff1585c.png",
     "static/media/location.png": "/rohanShinde007/static/media/location.23659eb9bcdc7e483125.png",
     "index.html": "/rohanShinde007/index.html",
-    "main.f5d084bf.css.map": "/rohanShinde007/static/css/main.f5d084bf.css.map",
-    "main.4237c9f0.js.map": "/rohanShinde007/static/js/main.4237c9f0.js.map",
+    "main.907cd13d.css.map": "/rohanShinde007/static/css/main.907cd13d.css.map",
+    "main.23e2a339.js.map": "/rohanShinde007/static/js/main.23e2a339.js.map",
     "787.cf8746b4.chunk.js.map": "/rohanShinde007/static/js/787.cf8746b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5d084bf.css",
-    "static/js/main.4237c9f0.js"
+    "static/css/main.907cd13d.css",
+    "static/js/main.23e2a339.js"
   ]
 }
