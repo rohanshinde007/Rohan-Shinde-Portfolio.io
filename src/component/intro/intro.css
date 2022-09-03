@@ -77,10 +77,32 @@
     height: 50px;
     font-size: 25px;
     font-weight: bold;
-    color: #59b256;
+ 
     display: flex;
     align-items: center;
+
+    background-image: linear-gradient(
+    -225deg,
+    #8b73e0 0%,
+    #653b91 29%,
+    #ff1361 67%,
+    #22ff00 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2.4s linear infinite;
 }
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
 
 .i_img{
     width: 50%;
@@ -107,14 +129,18 @@ opacity: 1;
 
 .i_bg{
     clip-path: polygon(100% 0%, 100% 52%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    background-color: #59b256;
+
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0px;
     right: 0px;
     margin: 5px;
+    background: linear-gradient(90deg, #ad3fd5, #52f262) ;
+
 }
+
+
 
 
 

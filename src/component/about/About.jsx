@@ -15,7 +15,7 @@ export default function About() {
         </div>
       </div>
       <div className="a-right">
-        <h1 className='a-title'>About Me</h1>
+        <h1 className='a-title'>About me</h1>
         <p className='a-sub'>
           I am Rohan from India,
         </p>

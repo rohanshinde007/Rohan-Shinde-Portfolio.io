@@ -5,6 +5,8 @@
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+   
+  
 }
 
 .p-browser{
@@ -27,6 +29,7 @@
     width: 100%;
     object-fit:cover;
     /* transition:all 2s ease; */
+   
 }
 .p:hover .p-img{
     animation: mo 10s ease-in-out infinite alternate;
